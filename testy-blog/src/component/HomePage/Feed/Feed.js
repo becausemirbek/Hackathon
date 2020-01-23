@@ -1,9 +1,13 @@
 import React from 'react';
 
-import Directory from '../Directory/Directory'
-import HelloPage from '../HelloPage/HelloPage'
-import List from '../List/List'
 import Details from '../Details/Details'
+import Directory from '../Directory/Directory'
+import List from '../List/List'
+import HelloPage from '../HelloPage/HelloPage'
+import NavBar from "../NavBar/NavBar"
+import Footer from "../Footer/Footer"
+
+
 
 
 
@@ -21,6 +25,13 @@ class Feed extends React.Component {
         
         />
         <Details 
+        
+        />
+        <NavBar 
+        
+        />
+
+        <Footer 
         
         />
       </div>
