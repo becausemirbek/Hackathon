@@ -4,7 +4,7 @@ class HelloPage extends React.Component {
   render() {
     return (
       <div>
-        
+        Hello Page
       </div>
     );
   }
