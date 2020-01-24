@@ -15,6 +15,9 @@ class Feed extends React.Component {
   render() {
     return (
       <div>
+        <NavBar 
+        
+        />
         <Directory 
       
         />
@@ -25,9 +28,6 @@ class Feed extends React.Component {
         
         />
         <Details 
-        
-        />
-        <NavBar 
         
         />
 
