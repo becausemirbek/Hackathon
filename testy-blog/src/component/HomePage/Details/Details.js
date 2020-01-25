@@ -9,7 +9,7 @@ class Details extends React.Component {
     // console.log(this.props.data);
     return (
       <div>
-        {item.name} <br/> {item.category} <br/> {item.ingredients} <br/> {item.recipe} <br/>
+       {item.name} <br/> {item.category} <br/> {item.ingredients} <br/> {item.recipe} <br/>
         <img src={item.image} alt={item.image}/>
         <button onClick={this.handleList}>Cancel</button>
       </div>

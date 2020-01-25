@@ -31,10 +31,10 @@ class Directory extends React.Component {
             {this.state.categoryList.map(item => {
             return (
               <div>
-                <a href="#" key={item.id} onClick={() => this.handleClickCategory(item.name)} > 
+                <span key={item.id} onClick={() => this.handleClickCategory(item.name)} > 
                   <img src={item.image}></img> 
                   <div className="Text-dir">{item.name}</div> 
-                </a>
+                </span>
               </div>
             )
             })}

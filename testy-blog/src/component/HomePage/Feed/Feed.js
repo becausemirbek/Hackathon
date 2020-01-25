@@ -55,8 +55,9 @@ class Feed extends React.Component {
 
     return (
       <div>
-        <NavBar 
         
+        <NavBar 
+          goTo={this.handleList}
         />
         <Directory 
           onChange={this.handleDirectory} 

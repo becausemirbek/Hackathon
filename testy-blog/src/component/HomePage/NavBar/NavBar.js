@@ -1,16 +1,23 @@
 import React from 'react';
 import './NavBar.css'
 
+// handleMainList = () => {
+//   this.props.onChange()
+// }
+
 class NavBar extends React.Component {
+  goHome = () => {
+    this.props.goTo({},"hello-page")
+  }
   render() {
     return (
       <div className="nav-bar">
         <div className="header">
           <div className="logo">
-            <a href="/"><h1>Tasty plan</h1></a>
+            <h1 onClick={this.goHome} >Tasty plan</h1>
           </div>
           <ul className="menu">
-            <a href="/"><li className="menu__item">ДОМОЙ</li></a>
+            <li onClick={this.goHome} className="menu__item">ДОМОЙ</li>
             <li className="menu__item">ДОБАВИТЬ РЕЦЕПТ</li>
             <li className="menu__item">О НАС</li>
           </ul>
