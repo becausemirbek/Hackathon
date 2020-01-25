@@ -12,4 +12,14 @@
 img {
     height: 130px;
     width: 130px;
+    margin-bottom: 30px;
+}
+.Text-dir {
+  padding-left: 6vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    size: 10px;
 }

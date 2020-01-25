@@ -1,10 +1,7 @@
 import React from "react";
 import axios from "axios";
 import './Directory.css';
-import breakfast from './breakfast.png';
-import cakes from './cakes.png';
-import soups from './soups.png';
-import pizza from './pizza.png';
+
 
 class Directory extends React.Component {
   state = {
@@ -32,12 +29,15 @@ class Directory extends React.Component {
       <div>
           <div className="category">
             {this.state.categoryList.map(item => {
-            return <button key={item.id} onClick={() => this.handleClickCategory(item.name)} >{item.name} </button>
+            return (
+              <div>
+                <a href="#" key={item.id} onClick={() => this.handleClickCategory(item.name)} > 
+                  <img src={item.image}></img> 
+                  <div className="Text-dir">{item.name}</div> 
+                </a>
+              </div>
+            )
             })}
-            <img src={breakfast}></img>
-            <img src={cakes}></img>
-            <img src={soups}></img>
-            <img src={pizza}></img>
           </div>
       </div>
     );

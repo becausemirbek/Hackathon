@@ -132,19 +132,23 @@
   "category": [
     {
       "id": 1,
-      "name": "Завтраки"
+      "name": "Завтраки",
+      "image":"http://image.torrent.kg/images/0Kq8306.png"
     },
     {
       "id": 2,
-      "name": "Торты"
+      "name": "Торты",
+      "image":"http://image.torrent.kg/images/OIq8306.png"
     },
     {
       "id": 3,
-      "name": "Супы"
+      "name": "Супы",
+      "image":"http://image.torrent.kg/images/WHd8306.png"
     },
     {
       "id": 4,
-      "name": "Пицца"
+      "name": "Пицца",
+      "image":"http://image.torrent.kg/images/cCF8306.png"
     }
   ]
 }
