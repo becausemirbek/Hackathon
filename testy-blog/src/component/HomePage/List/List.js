@@ -11,7 +11,7 @@ class List extends React.Component {
         {this.props.data.map(item => {
           return (
             <div key={item.id} onClick={() => this.handleClick(item)}>
-              {item.name}
+              {item.name} <br/> <img src={item.image} alt={item.image}/>
             </div>
           );
         })}
