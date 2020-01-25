@@ -67,7 +67,8 @@ class Feed extends React.Component {
         /> : null}
         {currentPage === "list" ? (
           <List 
-            data={this.state.foodList} onChange={this.handleList} 
+            data={this.state.foodList} 
+            onChange={this.handleList} 
           />
         ) : null}
         {currentPage === "details" ? (
