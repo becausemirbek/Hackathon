@@ -7,8 +7,8 @@ class HelloPage extends React.Component {
     return (
       <div>
         <div className="content">
-          <p className="hello-text">visit <br/> 
-          our blog the <br/>latest news and offers</p>
+          <p className="hello-text">КУЛИНАРНЫЙ<br/> 
+          БЛОГ <br/>TASTY PLAN</p>
         </div>
       </div>
     );

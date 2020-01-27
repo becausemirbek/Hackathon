@@ -12,7 +12,8 @@ class List extends React.Component {
         {this.props.data.map(item => {
           return (
             <div key={item.id} onClick={() => this.handleClick(item)}>
-              <div className="list-name">{item.name}</div> <br/> <img className="list-img" src={item.image} alt={item.image}/>
+              {/* <div className="list-name">{item.name}</div> <br/> */}
+              <img className="list-img" src={item.image} alt={item.image}/>
             </div>
           );
         })}
