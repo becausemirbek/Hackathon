@@ -1,7 +1,7 @@
 
 .category {
     background-color: rgba(248, 248, 248, 0.041);
-    box-shadow: 1px 1px 2px 1px rgba(153, 153, 153, 0.404);
+    box-shadow: 1px 1px 2px 1px rgba(36, 36, 36, 0.404);
     display: flex;
     justify-content: space-between;
     padding: 50px;
@@ -13,6 +13,7 @@ img {
     height: 150px;
     width: 150px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .Text-dir {
   text-align: center;

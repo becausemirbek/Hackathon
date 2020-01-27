@@ -6,23 +6,21 @@
     padding: 50px;
     margin: 30px 20px 30px 20px;
     list-style-type: none;
-    height: 350px;
+    height: 25vw;
+    width: auto;
 }
 
-.list-img {
-    height: 40vh;
-    width: 40vh;
-    border-radius: 100%;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.315);
-    border: 2px solid black;
-    cursor: pointer;
-    size: unset;
-}
 
-.list-name {
+/* .list-name {
     text-align: center;
     font-size: 20px;
     text-shadow: 1px black;
     text-transform: uppercase;
     font-weight: 500;
+} */
+
+.list-img {
+    height: 20vw;
+    width: 20vw;
+    cursor: pointer;
 }
