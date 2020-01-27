@@ -1,4 +1,5 @@
 import React from "react";
+import './List.css';
 
 class List extends React.Component {
   handleClick = data => {
@@ -7,11 +8,11 @@ class List extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="list-container">
         {this.props.data.map(item => {
           return (
             <div key={item.id} onClick={() => this.handleClick(item)}>
-              {item.name}
+              <div className="list-name">{item.name}</div> <br/> <img className="list-img" src={item.image} alt={item.image}/>
             </div>
           );
         })}

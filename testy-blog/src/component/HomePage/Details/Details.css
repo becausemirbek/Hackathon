@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Noto+Sans+TC:700&display=swap');
+
+.details_title {
+    text-align: center;
+    margin-top: 65px;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+}
+
+.contain {
+    background-color: grey;
+    box-shadow: 1px 1px 2px 1px rgba(153, 153, 153, 0.404);
+    padding: 50px;
+    margin: 30px 20px 30px 20px;
+    list-style-type: none;
+    opacity: 0.9;
+}
+
+.mat {
+    background-color: rgb(248, 248, 248);
+    box-shadow: 1px 1px 2px 1px rgba(153, 153, 153, 0.404);
+    padding: 50px;
+    list-style-type: none;
+    width: 330px;
+    border-radius: 5px;
+}
+.details_ingredients {
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.ingredients_title {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: -24px;
+    margin-bottom: 15px;
+}
+
+.details_image img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.details-img {
+    height: 300px;
+    width: 300px;
+}
+.img-contain{
+    display: flex;
+    justify-content: space-around;
+}

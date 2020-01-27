@@ -1,6 +1,10 @@
 import React from "react";
+import "./Details.css";
 
 class Details extends React.Component {
+  fetchText(text){
+    return text.split(/\n/g).map(item=><>{item}<br/></>)
+  }
   handleList = () => {
     this.props.onChange({}, "list")
   }
@@ -9,9 +13,24 @@ class Details extends React.Component {
     // console.log(this.props.data);
     return (
       <div>
-        {item.name} <br/> {item.category} <br/> {item.ingredients} <br/> {item.recipe} <br/>
-        <img src={item.image} alt={item.image}/>
-        <button onClick={this.handleList}>Cancel</button>
+        <div className="contain">
+        <div className="details_title">{item.name}</div><br/>
+        <div className="img-contain">
+            <img className="details-img" src={item.image} alt={item.image}/>
+          <div className="mat">
+            <div className="ingredients_title">
+             Ингредиенты :
+            </div>
+            <div className="details_ingredients">
+              {this.fetchText(item.ingredients)}
+            </div>
+          </div>
+
+        </div>
+         <div className="details_recipe">{item.recipe}</div><br/>
+        <button className="btn"
+         onClick={this.handleList}>Cancel</button>
+      </div>
       </div>
       // return <div>Details</div>;
     );
